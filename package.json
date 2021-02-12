@@ -1,0 +1,27 @@
+{
+  "name": "node-laposte",
+  "version": "0.0.1",
+  "description": "Donne les informations de suivi de vos envois via La Poste",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LePtitMetalleux/node-laposte.git"
+  },
+  "keywords": [
+    "LaPoste",
+    "node",
+    "nodejs"
+  ],
+  "author": "LePitMetalleux | Lycos Novation (https://github.com/Lycos-Novation)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LePtitMetalleux/node-laposte/issues"
+  },
+  "homepage": "https://github.com/LePtitMetalleux/node-laposte#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
