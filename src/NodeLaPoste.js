@@ -1,6 +1,7 @@
 const fetch = require('node-fetch')
 
-class LaPoste {
+class NodeLaPoste {
+  constructor() {}
   async search (id, lang) {
     try {
       if (!lang) lang = 'fr_FR'
@@ -19,4 +20,4 @@ class LaPoste {
     }
   }
 }
-module.exports = LaPoste
+module.exports = NodeLaPoste
