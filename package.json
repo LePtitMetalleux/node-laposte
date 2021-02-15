@@ -1,6 +1,6 @@
 {
   "name": "node-laposte",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Donne les informations de suivi de vos envois via La Poste",
   "main": "main.js",
   "scripts": {

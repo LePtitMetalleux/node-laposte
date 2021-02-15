@@ -2,10 +2,9 @@ const fetch = require('node-fetch')
 
 class NodeLaPoste {
   constructor() {}
-  async search (id, lang) {
+  async nodeSearch (id, lang) {
     try {
       if (!lang) lang = 'fr_FR'
-
       const infos = await fetch(`https://lycos-novation.fr/api/laposte/?id=${id}&?lang=${lang}`, {
         method: 'GET',
         headers: {
